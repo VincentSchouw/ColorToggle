@@ -1,0 +1,78 @@
+.grey-background {
+  background: lightgray;
+}
+.red-background {
+  background: red;
+}
+.orange-background {
+  background: orange;
+}
+.purple-background {
+  background: purple;
+}
+.green-background {
+  background: green;
+}
+
+body {
+  margin: 0px;
+  font-size: 15px;
+  background: lightgrey;
+}
+
+li {
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.nav-toggle {
+  font-size: 100px;
+  cursor: pointer;
+}
+
+.menu {
+  width: 350px;
+  list-style: none;
+  padding: 0;
+  transition: all 0.8s cubic-bezier(0.15, 0.7, 0, 1);
+  transition-delay: 0.25s;
+}
+
+#home {
+  background: lightgrey;
+}
+#red {
+  background: red;
+}
+#orange {
+  background: orange;
+}
+#purple {
+  background: purple;
+}
+#green {
+  background: green;
+}
+
+.menu li {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 15px 15px;
+}
+
+.js .menu {
+  overflow: hidden;
+  max-height: 0px;
+}
+
+.js .menu-active {
+  max-height: 200px;
+  padding-bottom: 5em;
+}
+
+.footer {
+  top: 500px;
+  position: fixed;
+}
